@@ -4,7 +4,18 @@ import { Box, Text, TextInput, TextInputProps } from '@octomatize/react'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
-  args: {},
+  args: {
+    disabled: false,
+  },
+
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
+
   decorators: [
     (Story) => {
       return (
