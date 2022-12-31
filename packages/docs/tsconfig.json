@@ -1,0 +1,4 @@
+{
+    "extends": "@octomatize/ts-config/react.json",
+    "include": ["src"]
+}

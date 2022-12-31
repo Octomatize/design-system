@@ -1,0 +1,19 @@
+{
+  "name": "@octomatize/design-system",
+  "version": "1.0.0",
+  "description": "Octomatize design system monorepo.",
+  "keywords": [],
+  "author": "Harbs Joao <harbspj@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}

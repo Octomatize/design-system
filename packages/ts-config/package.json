@@ -1,0 +1,9 @@
+{
+  "name": "@octomatize/ts-config",
+  "version": "1.0.0",
+  "description": "Octomatize typescript configurations.",
+  "keywords": [],
+  "author": "Harbs Joao <harbspj@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

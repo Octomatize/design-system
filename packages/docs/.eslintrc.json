@@ -1,0 +1,3 @@
+{
+    "extends": "@octomatize/eslint-config"
+}
