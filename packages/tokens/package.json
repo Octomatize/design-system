@@ -1,6 +1,6 @@
 {
   "name": "@octomatize/tokens",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,7 +14,7 @@
   "author": "Joao Harbs <harbspj@gmail.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
