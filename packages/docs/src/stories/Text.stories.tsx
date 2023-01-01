@@ -28,7 +28,9 @@ export default {
         '8xl',
         '9xl',
       ],
-      control: 'inline-radio',
+      control: {
+        type: 'inline-radio',
+      },
     },
   },
 } as Meta<TextProps>

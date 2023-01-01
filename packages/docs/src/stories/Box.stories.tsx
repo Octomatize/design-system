@@ -6,11 +6,7 @@ export default {
   component: Box,
 
   args: {
-    children: (
-      <>
-        <Text>Box element text</Text>
-      </>
-    ),
+    children: <Text>Box element test</Text>,
   },
 
   argTypes: {

@@ -4,6 +4,7 @@ import { Box, Text, TextInput, TextInputProps } from '@octomatize/react'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
+
   args: {
     disabled: false,
   },
@@ -46,5 +47,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'call.com/',
+    placeholder: 'your-username',
   },
 }

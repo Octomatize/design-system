@@ -7,12 +7,13 @@ export const TextArea = styled('textarea', {
   borderRadius: '$sm',
   boxSizing: 'border-box',
   border: '2px solid $gray900',
+
   fontFamily: '$default',
   fontSize: '$sm',
+  color: '$white',
   fontWeight: '$regular',
   resize: 'vertical',
   minHeight: 80,
-  color: '$white',
 
   '&:focus': {
     outline: 0,

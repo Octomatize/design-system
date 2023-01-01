@@ -9,8 +9,8 @@ export const Button = styled('button', {
   fontFamily: '$default',
   textAlign: 'center',
   minWidth: 120,
-  padding: '0 $4',
   boxSizing: 'border-box',
+  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -26,6 +26,10 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
+  },
+
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors $gray100',
   },
 
   variants: {

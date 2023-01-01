@@ -4,6 +4,7 @@ import { Box, Text, TextArea, TextAreaProps } from '@octomatize/react'
 export default {
   title: 'Form/TextArea',
   component: TextArea,
+
   args: {
     disabled: false,
   },
@@ -33,7 +34,7 @@ export default {
 
 export const Primary: StoryObj<TextAreaProps> = {
   args: {
-    placeholder: 'Add any observations',
+    placeholder: 'Add any observations...',
   },
 }
 
