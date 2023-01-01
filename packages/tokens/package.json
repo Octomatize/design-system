@@ -1,6 +1,6 @@
 {
   "name": "@octomatize/tokens",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,8 +11,16 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joao Harbs <harbspj@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/octomatize/design-system.git",
+    "directory": "packages/tokens"
+  },
   "devDependencies": {
     "@octomatize/eslint-config": "*",
     "@octomatize/ts-config": "*",
